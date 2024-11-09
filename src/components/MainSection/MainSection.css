@@ -1,0 +1,63 @@
+.image-section img {
+  width: 650px;
+  height: 600px;
+  margin: 0;
+  border: 2px solid #c7b9b4;
+}
+.image-section #picture2 {
+  width: 800px;
+}
+.image-section,
+.cosmetics-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.items-section,
+.lips-section {
+  font-family: "Courier New", Courier, monospace;
+  margin-top: 0;
+  height: 700px;
+  background-color: beige;
+}
+.items-section-label,
+.lips-section-label {
+  text-align: center;
+}
+.items-section-label h3,
+.lips-section-label h3 {
+  margin-top: 0;
+}
+.items-section-label h2,
+.lips-section-label h2 {
+  margin-top: 0;
+  padding-top: 100px;
+}
+.item-section,
+.lip-section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 50px;
+}
+.item-section img,
+.lip-section img {
+  width: 250px;
+  height: 350px;
+}
+.item-section p,
+.lip-section p {
+  text-align: center;
+}
+/* .cosmetics-section {
+  margin-top: 100px;
+} */
+.cosmetics-section img {
+  width: 690px;
+  height: 610px;
+  border: 2px solid #ecd4cc;
+}
+.cosmetics-section #swatch {
+  width: 60%;
+}
