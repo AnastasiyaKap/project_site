@@ -1,0 +1,26 @@
+.footer {
+  background-color: #ffe4e1;
+  display: flex;
+}
+.footer-information {
+  display: flex;
+  justify-content: center;
+  grid-gap: 50px;
+  width: 60%;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.footer-information section {
+  width: 20%;
+  text-align: start;
+}
+.footer-information ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer-information li {
+  margin: 0 0 10px;
+}
+.footer-form {
+  width: 40%;
+}

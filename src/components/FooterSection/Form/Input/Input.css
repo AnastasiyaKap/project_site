@@ -1,0 +1,7 @@
+.input-container {
+  position: relative;
+  margin-bottom: 26px;
+}
+.input-container label {
+  display: block;
+}
