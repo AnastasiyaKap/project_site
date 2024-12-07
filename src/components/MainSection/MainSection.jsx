@@ -6,9 +6,9 @@ export default function MainSection() {
     <>
       <div className="image-section">
         <img src={require("./pictures/image_5.jpg")} alt="picture1"></img>
+        <img src={require("./pictures/image_2.jpg")} alt="picture2"></img>
         <img
-          src={require("./pictures/image_2.jpg")}
-          id="picture2"
+          src={require("./pictures/cosmetic _bottle.jpg")}
           alt="picture2"
         ></img>
       </div>
@@ -31,11 +31,8 @@ export default function MainSection() {
       </div>
       <div className="cosmetics-section">
         <img src={require("./pictures/models.jpg")} alt="picture1"></img>
-        <img
-          src={require("./pictures/swatch.jpg")}
-          alt="picture2"
-          id="swatch"
-        ></img>
+        <img src={require("./pictures/models1.jpg")} alt="picture2"></img>
+        <img src={require("./pictures/models2.jpg")} alt="picture3"></img>
       </div>
       <div className="lips-section">
         <div className="lips-section-label">

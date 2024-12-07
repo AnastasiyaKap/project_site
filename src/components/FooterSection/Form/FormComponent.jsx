@@ -16,19 +16,19 @@ export default function FormComponent() {
           id="firstName"
           label="First name"
           name="firstName"
-          placeholder="Enter name"
+          placeholder="Your name"
         ></InputComponent>
         <InputComponent
           id="email"
           label="Email"
           name="email"
-          placeholder="Enter email"
+          placeholder="Your email"
         ></InputComponent>
         <InputComponent
           id="text"
           label="Text"
           name="text"
-          placeholder="Enter text"
+          placeholder="Your text"
         ></InputComponent>
         <Button>Send</Button>
       </Form>

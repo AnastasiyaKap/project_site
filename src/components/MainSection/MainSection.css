@@ -1,11 +1,9 @@
-.image-section img {
-  width: 650px;
-  height: 600px;
+.image-section img,
+.cosmetics-section img {
+  min-width: 33%;
+  height: 620px;
   margin: 0;
   border: 2px solid #c7b9b4;
-}
-.image-section #picture2 {
-  width: 800px;
 }
 .image-section,
 .cosmetics-section {
@@ -17,6 +15,7 @@
 .lips-section {
   font-family: "Courier New", Courier, monospace;
   margin-top: 0;
+  padding-bottom: 40px;
   height: 700px;
   background-color: beige;
 }
@@ -50,14 +49,8 @@
 .lip-section p {
   text-align: center;
 }
-/* .cosmetics-section {
-  margin-top: 100px;
-} */
-.cosmetics-section img {
-  width: 690px;
-  height: 610px;
+/* .cosmetics-section img {
+  width: 33%;
+  height: 620px;
   border: 2px solid #ecd4cc;
-}
-.cosmetics-section #swatch {
-  width: 60%;
-}
+} */

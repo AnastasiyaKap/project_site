@@ -1,6 +1,18 @@
 .form {
-  width: 50%;
-  max-width: 200px;
-  padding: 50px;
-  background: rgb(202, 119, 119);
+  width: 70%;
+  display: inline-block;
+  justify-content: inline-block;
+  margin-left: 15%;
+  margin-top: 10%;
+  /* background-color: aquamarine; */
+}
+.form input {
+  height: 30px;
+  width: 90%;
+  background-color: #748871;
+  border-top: #748871;
+  border-left: #748871;
+  border-right: #748871;
+  border-bottom: 1px solid black;
+  color: black;
 }
